@@ -4,10 +4,11 @@ const n2 = 15;
 const n3 = 20;
 const n4 = 5;
 
-console.log(n1);
-console.log(n2);
-console.log(n3);
-console.log(n4);
+// checking if the variables are divisible by 5
+console.log(n1 % 5 === 0);
+console.log(n2 % 5 === 0);
+console.log(n3 % 5 === 0);
+console.log(n4 % 5 === 0);
 
 // Check one: add up to 50
 // This is a fairly simple operation using
