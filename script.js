@@ -4,11 +4,19 @@ const n2 = 15;
 const n3 = 20;
 const n4 = 5;
 
-// checking if the variables are divisible by 5
-console.log(n1 % 5 === 0);
-console.log(n2 % 5 === 0);
-console.log(n3 % 5 === 0);
-console.log(n4 % 5 === 0);
+// // checking if the variables are divisible by 5
+// console.log(n1 % 5 === 0);
+// console.log(n2 % 5 === 0);
+// console.log(n3 % 5 === 0);
+// console.log(n4 % 5 === 0);
+
+// comparison
+
+let compare = n1 > n4;
+console.log(compare);
+
+
+
 
 // Check one: add up to 50
 // This is a fairly simple operation using
