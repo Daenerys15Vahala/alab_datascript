@@ -5,21 +5,26 @@ const n3 = 20;
 const n4 = 5;
 
 // // checking if the variables are divisible by 5
-// console.log(n1 % 5 === 0);
-// console.log(n2 % 5 === 0);
-// console.log(n3 % 5 === 0);
-// console.log(n4 % 5 === 0);
+console.log(n1 % 5 === 0);
+console.log(n2 % 5 === 0);
+console.log(n3 % 5 === 0);
+console.log(n4 % 5 === 0);
 
 // comparison
 
 let compare = n1 > n4;
 console.log(compare);
 
-// substract, multiply, divide
+// // substract, multiply, divide
 
 let result = (n2 - n1) * n3 % n4;
 console.log((n2 - n1) * n3 % n4);
 
+
+//  changing this const isOver25 = n1 > 25 || n2 > 25 || n3 > 25 || n4 > 25;
+
+const isUnder25 = n1 <= 25 && n2 <= 25 && n3<= 25 && n4 <=25;
+console.log(isUnder25);
 
 
 // Check one: add up to 50
@@ -44,10 +49,10 @@ console.log((n2 - n1) * n3 % n4);
 // // that we will review later.
 // const isUnique = n1 != n2 && n1 != n3 && n1 != n4 && n2 != n3 && n2 != n4 && n3 != n4;
 
-// // Here, we put the results into a single variable 
-// // for convenience. Note how we negate isOver25 using
-// // the ! operator. We could also have tested for 
-// // "isUnder25" as an alternative.
+// Here, we put the results into a single variable 
+// for convenience. Note how we negate isOver25 using
+// the ! operator. We could also have tested for 
+// "isUnder25" as an alternative.
 // const isValid = isSum50 && isTwoOdd && !isOver25 && isUnique;
 
 // // Finally, log the results.
